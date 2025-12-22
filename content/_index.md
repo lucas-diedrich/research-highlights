@@ -17,7 +17,7 @@ In 2025, our lab made contributions to the both the experimental + computational
     title="Proteomics Methods" 
     description="Methodological advances driven by the MannLabs"
     url="2025/#proteomics-methods"
-    image="/images/2025/synchro-pasef.png"
+    image="images/2025/synchro-pasef.png"
     alpha=0.6
     textColor="#222222"
 >}}
@@ -27,7 +27,7 @@ In 2025, our lab made contributions to the both the experimental + computational
     title="Bioinformatics" 
     description="New computational methods developed by the MannLabs" 
     url="2025/#bioinformatics--software"
-    image="/images/2025/alphadia.png"
+    image="images/2025/alphadia.png"
     alpha=0.6
     textColor="#222222"
 >}}
@@ -37,7 +37,7 @@ In 2025, our lab made contributions to the both the experimental + computational
     title="Disease biology"
     description="Fundamental understanding of spatial biology"
     url="2025/#high-throughput-applications"
-    image="/images/2025/att-if.png"
+    image="images/2025/att-if.png"
     alpha=0.6
     textColor="#222222"
 
@@ -48,7 +48,7 @@ In 2025, our lab made contributions to the both the experimental + computational
     title="Clinical translation" 
     description="Clinical translation of findings" 
     url="2025/#clinical-impact-highlight"
-    image="/images/2025/spatial-medicine.png"
+    image="images/2025/spatial-medicine.png"
     alpha=0.6
     textColor="#222222"
 
