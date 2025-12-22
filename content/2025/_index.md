@@ -93,7 +93,7 @@ toc: true
 
 **JAK Inhibitors for Toxic Epidermal Necrolysis**
 
-Our 2024 _Nature_ publication (Nordmann TM et al.) on spatial proteomics
+[Our 2024 _Nature_ publication (Nordmann TM et al.)](https://doi.org/10.1038/s41586-024-08061-0) on spatial proteomics
 identifying JAK inhibitors as treatment for toxic epidermal necrolysis
 (TEN) -- a lethal skin disease -- has had immediate clinical impact in 2025. Off-label use of JAK inhibitors in the first patients worldwide
 led to complete recovery.
