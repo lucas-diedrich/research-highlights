@@ -11,6 +11,23 @@ Please visit [mannlabs.github.io/research-highlights](https://mannlabs.github.io
 
 ### Local development 
 
+1. [Install hugo](https://gohugo.io/installation/), the engine that builds the website
+
+2. Clone the repository 
+
+```bash 
+git clone https://github.com/MannLabs/research-highlights.git
+```
+
+3. Make edits to the content (see [Development Workflow](#development-workflow))
+
+3. Test it locally. 
+
+```shell
+# -D: Autoupdate the site after changes
+hugo server -D 
+```
+
 #### Development Workflow
 
 - **Content**: Edit Markdown files in the `content/` directory
@@ -26,7 +43,6 @@ Key configuration options in `hugo.toml`:
 - **Navigation menu**: Top-level menu items
 - **PaperMod parameters**: Theme-specific settings
 - **Social links**: GitHub, Twitter, etc.
-
 
 
 ### Deployment
