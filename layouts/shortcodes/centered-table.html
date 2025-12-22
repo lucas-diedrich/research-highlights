@@ -1,0 +1,40 @@
+<div class="centered-table-wrapper">
+<div class="centered-table">
+{{ .Inner | markdownify }}
+</div>
+</div>
+
+<style>
+.centered-table-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.centered-table {
+    display: inline-block;
+}
+
+.centered-table table {
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin: 0 auto;
+}
+
+.centered-table th,
+.centered-table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+.centered-table th {
+    background: var(--code-bg);
+    font-weight: 600;
+}
+
+.centered-table tr:hover {
+    background: var(--code-bg);
+}
+</style>
