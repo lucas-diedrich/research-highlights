@@ -5,8 +5,8 @@
         {{ if .Site.Params.customFooterHTML }}
             · {{ .Site.Params.customFooterHTML | safeHTML }}
         {{ else }}
-            · <a href="imprint/">Imprint</a>
-            · <a href="privacy/">Privacy Policy</a>
+            · <a href="{{ "imprint/" | absURL }}">Imprint</a>
+            · <a href="{{ "privacy/" | absURL }}">Privacy Policy</a>
         {{ end }}
     </span>
 </footer>
