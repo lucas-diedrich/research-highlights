@@ -9,7 +9,7 @@ Here, we share ongoing research efforts, best practices, and insights into our r
 
 ## Research highlights: 2025
 
-Check out [this page](/2025/) for a full list of research highlights
+In 2025, our lab made contributions to the both the experimental + computational method development as well as the application of MS-based proteomics in disease research. Check out [the full list of research highlights 2025](/2025/). 
 
 {{< card-grid columns="4">}}
 
