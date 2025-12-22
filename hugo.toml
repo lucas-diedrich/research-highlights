@@ -1,4 +1,46 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'MannLabs'
 theme = 'papermod'
+
+[params]
+    description = "Research Highlights by the MannLabs in Munich and Copenhagen"
+    author = "MannLabs"
+    ShowReadingTime = false
+    ShowShareButtons = false
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = false
+    ShowCodeCopyButtons = true
+    ShowWordCount = false
+    ShowRssButtonInSectionTermList = false
+    UseHugoToc = true
+    disableSpecial1stPost = false
+    disableScrollToTop = false
+    comments = false
+    hidemeta = false
+    hideSummary = false
+    showtoc = false
+    tocopen = false
+
+    [params.homeInfoParams]
+        Title = "MannLabs Research Highlights"
+        Content = "The MannLabs, led by Prof. Matthias Mann, pioneers mass spectrometry-based proteomics with a focus on signal transduction, biomarker discovery, and metabolic diseases. Here, we share ongoing research efforts, best practices, and insights for the public and other researchers."
+
+
+    [params.assets]
+        favicon = "/favicon.ico"
+        favicon16x16 = "/favicon-16x16.png"
+        favicon32x32 = "/favicon-32x32.png"
+
+[menu]
+    [[menu.main]]
+        identifier = "2025"
+        name = "2025"
+        url = "/2025/"
+        weight = 0
+
+[markup]
+    [markup.highlight]
+        style = "github"
+        lineNos = true
+        lineNumbersInTable = true
+        tabWidth = 2

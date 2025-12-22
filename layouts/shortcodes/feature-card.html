@@ -1,0 +1,154 @@
+{{- $image := .Get "image" -}}
+{{- $textColor := .Get "textColor" | default "inherit" -}}
+{{- $alpha := .Get "alpha" | default "0.5" -}}
+
+<div class="feature-card{{ if $image }} feature-card--has-image{{ end }}"
+    {{- if $image }} style="background-image: url('{{ $image | absURL }}');"{{ end }}>
+    <div class="feature-card__overlay" style="--overlay-alpha: {{ $alpha }}; --text-color: {{ $textColor }};">
+        {{ if not $image }}
+        <div class="feature-icon">
+            <img src="{{ .Get "icon" | default "images/placeholder/package.svg" | absURL }}" alt="{{ .Get "alt" | default "icon" }}">
+        </div>
+        {{ end }}
+        <div class="feature-content">
+            <h3><a href="{{ .Get "url" }}">{{ .Get "title" }}</a></h3>
+            <p>{{ .Get "description" }}</p>
+            <div class="social-links">
+                {{ if .Get "github" }}
+                    <a href="{{.Get "github"}}" target="_blank" rel="noopener" aria-label="GitHub">
+                        <img src="{{"images/icons/external/github.svg" | absURL}}" alt="GitHub icon">
+                    </a>
+                {{ end }}
+                {{ if .Get "docs"}}
+                    <a href="{{ .Get "docs"}}" , target="_blank" rel="noopener"
+                        aria-label="docs">
+                        <img src="{{"images/icons/docs.png" | absURL}}" alt="docs" />
+                    </a>
+                {{ end }}
+                {{ if .Get "doi"}}
+                    <a href="{{ .Get "doi"}}" , target="_blank" rel="noopener"
+                        aria-label="Bluesky">
+                        <img src="{{"images/icons/doi.png" | absURL }}" alt="doi" />
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.feature-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin: 1rem 0;
+    background: var(--entry);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+    min-height: 280px;
+    overflow: hidden;
+}
+
+.feature-card--has-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.feature-card__overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    height: 100%;
+    min-height: 280px;
+    box-sizing: border-box;
+}
+
+.feature-card--has-image .feature-card__overlay {
+    background: rgba(255, 255, 255, var(--overlay-alpha, 0.1));
+}
+
+.feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.feature-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.feature-content {
+    color: var(--text-color, var(--primary));
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.feature-content h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color, var(--primary));
+}
+
+.feature-content h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.feature-content h3 a:hover {
+    text-decoration: underline;
+}
+
+.feature-content p {
+    flex: 1;
+    display: flex;
+    color: var(--text-color, inherit);
+}
+
+.feature-link {
+    color: var(--text-color, var(--primary));
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.feature-link:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    margin: auto;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ffffff55;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.social-links img {
+    height: 30px;
+    width: 30px;
+}
+
+.social-links a:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+</style>

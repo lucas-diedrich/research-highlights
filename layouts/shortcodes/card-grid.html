@@ -1,0 +1,43 @@
+<div class="card-grid{{ if .Get "columns" }} card-grid-{{ .Get "columns" }}{{ end }}">
+    {{ .Inner }}
+</div>
+
+<style>
+/* Feature Grid Container */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Responsive grid variations */
+.card-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 720px) {
+    .card-grid-3,
+    .card-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .card-grid-2,
+    .card-grid-3,
+    .card-grid-4 {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
