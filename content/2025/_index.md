@@ -4,19 +4,14 @@ description: The Year 2025 in Review
 toc: true
 ---
 
-## Overview
 
-{{< centered-table >}}
-| Metric | Count |
-| ------------------------------------- | --- |
-| Last/Senior Author Papers (Published) | 18+ |
-| Preprints (bioRxiv/medRxiv) | 9+ |
-| Nature family papers | 7 |
-| Major Collaborations | 6+ |
-{{< /centered-table >}}
 
 ## Technology Advances
-On the technology front, we introduced several transformative [methods](#proteomics-methods). Our **SPEC (Solid-Phase Extraction Capture) workflow** enables proteomics sample preparation in nanoliter sample volumes resulting in unprecedented sensitivity. It enables the **nanoPhos** method which brings phosphoproteomics—traditionally requiring substantial material—to single-cell resolution in spatial contexts. **AlphaDIA**, published in Nature Biotechnology, pioneers end to end deep learning and applies transfer learning to adjust to new conditions and PTM types. In the [Rust rewrite](https://www.linkedin.com/posts/georg-wallmann-926433189_alphadia-20-is-out-today-we-are-activity-7391492479847583744-4veI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADe7bvYBPclp6_FXHkb1VK3QDEMwV3MQg0Q) it has become blazingly fast. We also developed ADAPT-MS, an adaptive machine learning framework that enables clinical decision-making directly from discovery proteomics data without requiring fixed biomarker panels—a paradigm shift for clinical proteomics.
+On the technology front, we introduced several transformative [methods](#proteomics-methods). Our **SPEC (Solid-Phase Extraction Capture) workflow** enables proteomics sample preparation in nanoliter sample volumes resulting in unprecedented sensitivity. It enables the **nanoPhos** method which brings phosphoproteomics—traditionally requiring substantial material—to single-cell resolution in spatial contexts.
+
+**AlphaDIA**, published in Nature Biotechnology, pioneers end to end deep learning and applies transfer learning to adjust to new conditions and PTM types. In the [Rust rewrite](https://www.linkedin.com/posts/georg-wallmann-926433189_alphadia-20-is-out-today-we-are-activity-7391492479847583744-4veI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADe7bvYBPclp6_FXHkb1VK3QDEMwV3MQg0Q) it has become blazingly fast. 
+
+We also developed **ADAPT-MS**, an adaptive machine learning framework that enables clinical decision-making directly from discovery proteomics data without requiring fixed biomarker panels—a paradigm shift for clinical proteomics.
 
 ### Proteomics Methods
 
@@ -50,7 +45,8 @@ On the technology front, we introduced several transformative [methods](#proteom
 Our [**Deep Visual Proteomics (DVP) platform**](#disease-biology--spatial-proteomics) continued to yield biological insights with clinical relevance. In collaboration with clinical partners, we revealed why some patients with alpha-1 antitrypsin deficiency develop severe liver disease while others remain healthy. 
 
 Our long-standing [collaboration with Ernst Lengyel](#ovarian-cancer----ernst-lengyel-u-chicago) at the University of Chicago produced multiple high-impact papers on ovarian cancer, including the identification of NNMT as a therapeutic target in cancer-associated fibroblasts (Nature) and comprehensive spatial mapping of serous tubal intraepithelial carcinomas (STICs), revealing that ovarian cancer precursors are far more common than previously recognized.
-We also established a new framework for studying rare diseases. Our ontology-guided clustering approach, published in EMBO Molecular Medicine, enables meaningful proteomic analysis even when individual conditions affect only a handful of patients—opening the door to systematic study of the thousands of rare pediatric disorders that collectively affect millions of children worldwide.
+
+We also established a new framework for studying rare diseases. Our **ontology-guided clustering approach** enables meaningful proteomic analysis even when individual conditions affect only a handful of patients—opening the door to systematic study of the thousands of rare pediatric disorders that collectively affect millions of children worldwide.
 
 
 ### Disease Biology & Spatial Proteomics
@@ -102,12 +98,9 @@ We also established a new framework for studying rare diseases. Our ontology-gui
 
 **JAK Inhibitors for Toxic Epidermal Necrolysis**
 
-[Our 2024 _Nature_ publication (Nordmann TM et al.)](https://doi.org/10.1038/s41586-024-08061-0) on spatial proteomics
-identifying JAK inhibitors as treatment for toxic epidermal necrolysis
-(TEN) -- a lethal skin disease -- has had immediate clinical impact in 2025. Off-label use of JAK inhibitors in the first patients worldwide
-led to complete recovery.
+[Our 2024 _Nature_ publication (Nordmann TM et al.)](https://doi.org/10.1038/s41586-024-08061-0) on spatial proteomics identifying JAK inhibitors as treatment for toxic epidermal necrolysis (TEN) -- a lethal skin disease -- has had immediate clinical impact in 2025. Off-label use of JAK inhibitors in the first patients worldwide led to complete recovery.
 
-_"To our knowledge, this is the first time a spatial omics technology
+> _"To our knowledge, this is the first time a spatial omics technology
 has made an immediate and tangible impact in the clinic, by identifying
 a treatment that has already changed people's lives for the good."_
 
