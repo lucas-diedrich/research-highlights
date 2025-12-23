@@ -7,7 +7,8 @@ description: "Summary of recent advances led by the MannLabs at the MPI for Bioc
 
 Together with Tiannan Guo and Judith Steen, we recently published our view on exciting current technical developments and a path to further clinical applications of proteomics as review:
 
-{{< citation title="MS-based Proteomics: Single Cells to Clinical Applications" authors="Guo T, Steen JA, Mann M" journal="Nature" issue="2025 Feb;638(8052):901-911" summary="Review article charting the path from technological advances to clinical implementation of proteomics." url="https://doi.org/10.1038/s41586-025-08584-0" background="#f4f4f4">}}
+{{< citation title="MS-based Proteomics: Single Cells to Clinical Applications" authors="Guo T, Steen JA, Mann M" journal="Nature" issue="2025 Feb;638(8052):901-911"  url="https://doi.org/10.1038/s41586-025-08584-0" background="#f4f4f4" size="1em">}}
+
 
 This year, we published **over 18 papers** as last or senior author in leading journals including Nature, Nature Biotechnology, Nature Genetics, Nature Protocols, and Nature Communications. Our work spanned the full translational arc - from **developing ultrasensitive sample preparation methods** that push detection limits to single cells and nanoliter volumes, to **deploying AI-powered software** that democratizes proteomics analysis, to **uncovering disease mechanisms** with direct therapeutic implications.
 
