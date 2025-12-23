@@ -3,7 +3,7 @@ title: "MannLabs Research Highlights 2025"
 description: "Summary of recent advances led by the MannLabs at the MPI for Biochemistry in Munich and the Centre for Proteomics Research in Copenhagen"
 ---
 
-> _2025 was a landmark year for the Department of Proteomics and Signal Transduction at the Max Planck Institute of Biochemistry. Despite the unfortunate phasing out of our group at the Center for Proteome Research in Copenhagen, our Munich laboratory achieved unprecedented scientific output while making tangible clinical impact, training the next generation of scientists, and receiving distinguished recognition for our contributions to the field._   
+Looking back to 2025, it was a landmark year for the Department of Proteomics and Signal Transduction at the Max Planck Institute of Biochemistry. Despite the unfortunate phasing out of our group at the Center for Proteome Research in Copenhagen, our Munich laboratory achieved unprecedented scientific output while making tangible clinical impact, training the next generation of scientists, and receiving distinguished recognition for our contributions to the field. 
 
 Together with Tiannan Guo and Judith Steen, we recently published our view on exciting current technical developments and a path to further clinical applications of proteomics as review:
 
