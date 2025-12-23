@@ -27,7 +27,7 @@ We also developed **ADAPT-MS**, an adaptive machine learning framework that enab
 
 {{< citation title="Pre-Analytical Drivers of Bias in Plasma Proteomics" authors="Korff K, Müller-Reif JB, et al., Mann M, Geyer PE" journal="EMBO Mol Med" issue="2025 Nov;17(11):3174-3196" summary="Systematic evaluation of plasma proteomics workflows reveals susceptibility to cellular contamination and provides framework for quality control." >}}
 
-## Bioinformatics & Software
+### Bioinformatics & Software
 
 {{< citation title="AlphaDIA -- Transfer Learning for DIA" authors="Wallmann G, Skowronek P, Brennsteiner V, et al., Mann M" journal="Nat Biotechnol" issue="2025 Oct 21" summary="End-to-end transfer learning enabling feature-free proteomics with dramatically improved identification rates." >}}
 
@@ -100,7 +100,7 @@ We also established a new framework for studying rare diseases. Our **ontology-g
 
 [Our 2024 _Nature_ publication (Nordmann TM et al.)](https://doi.org/10.1038/s41586-024-08061-0) on spatial proteomics identifying JAK inhibitors as treatment for toxic epidermal necrolysis (TEN) -- a lethal skin disease -- has had immediate clinical impact in 2025. Off-label use of JAK inhibitors in the first patients worldwide led to complete recovery.
 
-> _"To our knowledge, this is the first time a spatial omics technology
+>_"To our knowledge, this is the first time a spatial omics technology
 has made an immediate and tangible impact in the clinic, by identifying
 a treatment that has already changed people's lives for the good."_
 
